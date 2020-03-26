@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
-import { Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import profilpicture from './image/profil-picture.jpg';
 import iotschema from './image/IoT-schema.png';
@@ -27,7 +27,7 @@ class Main extends Component {
           </div>
 
           <div>
-            <p className="myName">Tanneguy Levêque</p>
+            <h3 className="myName">Tanneguy Levêque</h3>
             <div className="details">
               <p className="description">Student in Enginering and UX</p>
               <p className="localisation">Paris, France</p>
