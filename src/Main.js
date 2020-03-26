@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
-import Routes from './routes';
+import { Link} from "react-router-dom";
 
 import profilpicture from './image/profil-picture.jpg';
 import iotschema from './image/IoT-schema.png';
@@ -11,7 +11,9 @@ import {
   Card, CardTitle, CardImg, CardImgOverlay
 } from 'reactstrap';
 
-class App extends Component {
+
+
+class Main extends Component {
   render() {
     return (
       <div>
@@ -46,15 +48,16 @@ class App extends Component {
                 <CardImg src={iotschema} alt="Iot schema" />
                 <CardImgOverlay className="cardOverlay">
                   <CardTitle className="card-title">
-                    <Routes>Internet of Things : la technologie Zolertia</Routes>
-                  </CardTitle>
+                    <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
+                    
+                    </CardTitle>
                 </CardImgOverlay>
               </Card>
             </div>
 
             <div className="coverCard">
               <Card inverse>
-                <CardImg  src={cultureeasy} alt="culture easy" />
+                <CardImg src={cultureeasy} alt="culture easy" />
                 <CardImgOverlay className="cardOverlay">
                   <CardTitle className="card-title">Projet étudiant : Culture Easy</CardTitle>
                 </CardImgOverlay>
@@ -63,7 +66,7 @@ class App extends Component {
 
             <div className="coverCard">
               <Card inverse>
-                <CardImg  src={blockchainvsquantumcomputing} alt="Blockchain vs Quantum Computing" />
+                <CardImg src={blockchainvsquantumcomputing} alt="Blockchain vs Quantum Computing" />
                 <CardImgOverlay className="cardOverlay">
                   <CardTitle className="card-title">Blockchain vs Quantum Computing</CardTitle>
                 </CardImgOverlay>
@@ -71,10 +74,12 @@ class App extends Component {
             </div>
           </div>
 
+
+          
         </div>
       </div>
     );
   }
 }
 
-export default App;
+export default Main;
