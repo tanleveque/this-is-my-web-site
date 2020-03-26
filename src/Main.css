@@ -87,13 +87,22 @@
 .coverCard{
     margin-top:20px;
     height: 262px;
+    width: 335px;
     overflow: hidden;
 }
 
 .card{
     border:none;
     height: inherit;
+    flex-direction:initial;
+}
 
+.card-img{
+    align-self:center ;
+    width: initial;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .cardOverlay{
     margin-top: 150px;
@@ -103,15 +112,12 @@
     padding-left: 15px;
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 81%);
     border-radius: 0 0 4px 4px;
-}
-
-.card-img{
-        
+    flex-direction: column;
+    
 }
 
 .card-title{
-    margin-bottom: none;
-    vertical-align: bottom;
+    align-items: baseline;
     padding-right: 70px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-weight: bold;

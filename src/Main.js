@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Main.css';
+import Routes from './routes';
+
 import profilpicture from './image/profil-picture.jpg';
 import iotschema from './image/IoT-schema.png';
 import cultureeasy from './image/cultureEasy.png';
@@ -43,7 +45,9 @@ class App extends Component {
               <Card inverse>
                 <CardImg src={iotschema} alt="Iot schema" />
                 <CardImgOverlay className="cardOverlay">
-                  <CardTitle className="card-title">Internet of Things : la technologie Zolertia</CardTitle>
+                  <CardTitle className="card-title">
+                    <Routes>Internet of Things : la technologie Zolertia</Routes>
+                  </CardTitle>
                 </CardImgOverlay>
               </Card>
             </div>
