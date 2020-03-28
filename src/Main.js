@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
+import './App.css';
 import {Link} from "react-router-dom";
 
 import profilpicture from './image/profil-picture.jpg';
@@ -73,10 +74,13 @@ class Main extends Component {
               </Card>
             </div>
           </div>
-
-
-          
+   
         </div>
+
+        
+        <div className="spacer"></div>
+        <div className="footer"></div>
+
       </div>
     );
   }
