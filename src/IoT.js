@@ -22,8 +22,9 @@ class IoT extends Component {
 
                 <div className="profil-zone">
                     <div className="image-container-page">
-                        <Link to={'/'}>
-                            <img className="profil-picture" src={profilpicture} alt="me" /></Link>
+                        <Link className="profil-picture" to={'/'}>
+                            <img className="profil-picture" src={profilpicture} alt="me" />
+                        </Link>
                     </div>
                 </div>
 
