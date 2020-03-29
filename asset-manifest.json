@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/this-is-my-web-site/static/css/main.f8492923.chunk.css",
-    "main.js": "/this-is-my-web-site/static/js/main.072c8b95.chunk.js",
-    "main.js.map": "/this-is-my-web-site/static/js/main.072c8b95.chunk.js.map",
+    "main.js": "/this-is-my-web-site/static/js/main.c0bc896e.chunk.js",
+    "main.js.map": "/this-is-my-web-site/static/js/main.c0bc896e.chunk.js.map",
     "runtime-main.js": "/this-is-my-web-site/static/js/runtime-main.1778ad49.js",
     "runtime-main.js.map": "/this-is-my-web-site/static/js/runtime-main.1778ad49.js.map",
     "static/css/2.47e06e2e.chunk.css": "/this-is-my-web-site/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.b72e17e5.chunk.js": "/this-is-my-web-site/static/js/2.b72e17e5.chunk.js",
-    "static/js/2.b72e17e5.chunk.js.map": "/this-is-my-web-site/static/js/2.b72e17e5.chunk.js.map",
+    "static/js/2.84f89a2d.chunk.js": "/this-is-my-web-site/static/js/2.84f89a2d.chunk.js",
+    "static/js/2.84f89a2d.chunk.js.map": "/this-is-my-web-site/static/js/2.84f89a2d.chunk.js.map",
     "index.html": "/this-is-my-web-site/index.html",
-    "precache-manifest.cdf8d9728fb804644c919ffad619e04c.js": "/this-is-my-web-site/precache-manifest.cdf8d9728fb804644c919ffad619e04c.js",
+    "precache-manifest.251550afc13df73a62657d2bfa85fc4e.js": "/this-is-my-web-site/precache-manifest.251550afc13df73a62657d2bfa85fc4e.js",
     "service-worker.js": "/this-is-my-web-site/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/this-is-my-web-site/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.f8492923.chunk.css.map": "/this-is-my-web-site/static/css/main.f8492923.chunk.css.map",
-    "static/js/2.b72e17e5.chunk.js.LICENSE.txt": "/this-is-my-web-site/static/js/2.b72e17e5.chunk.js.LICENSE.txt",
+    "static/js/2.84f89a2d.chunk.js.LICENSE.txt": "/this-is-my-web-site/static/js/2.84f89a2d.chunk.js.LICENSE.txt",
     "static/media/IoT-schema-2.png": "/this-is-my-web-site/static/media/IoT-schema-2.7e563ce1.png",
     "static/media/IoT-schema.png": "/this-is-my-web-site/static/media/IoT-schema.4114c1ce.png",
     "static/media/banner-zolertia.png": "/this-is-my-web-site/static/media/banner-zolertia.f6bdf69e.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.1778ad49.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.b72e17e5.chunk.js",
+    "static/js/2.84f89a2d.chunk.js",
     "static/css/main.f8492923.chunk.css",
-    "static/js/main.072c8b95.chunk.js"
+    "static/js/main.c0bc896e.chunk.js"
   ]
 }
