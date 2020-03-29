@@ -73,35 +73,35 @@ class IoT extends Component {
                             de dashbord web pour IoT.</p>
                     </div>
                 </div>
-            
 
-            <div className="spacer"></div>
-            <div>
-                <Container>
-                    <Row>
-                        <Col> <img className="illustration" src={screenshotIoT1} alt="screenshot iot 1"></img> </Col>
-                        <Col> <img className="illustration" src={screenshotIoT2} alt="screenshot iot 2"></img></Col>
-                    </Row>
-                </Container>
-            </div>
-            <div className="spacer"></div>
 
-            <div className="page-content">
+                <div className="spacer"></div>
+                <div>
+                    <Container>
+                        <Row>
+                            <Col> <img className="illustration" src={screenshotIoT1} alt="screenshot iot 1"></img> </Col>
+                            <Col> <img className="illustration" src={screenshotIoT2} alt="screenshot iot 2"></img></Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="spacer"></div>
 
-                <div className="text-content">
-                    <p>La technologie Zolertia est une solution hardware, ici sous forme d'une carte, fonctionnant avec le protocole 6LoWPan
-                    *(IPv6 over Low-power Wireless Personal Area Networks) souvent utilisé pour la domotique. Globalement, le protocole 6LoWPan
-                    fait une utilisation plus efficace du protocole IPv6. Il fonctionne à un débit plus faible et il consomme peu d'énergie.
+                <div className="page-content">
+
+                    <div className="text-content">
+                        <p>La technologie Zolertia est une solution hardware, ici sous forme d'une carte, fonctionnant avec le protocole 6LoWPan
+                        *(IPv6 over Low-power Wireless Personal Area Networks) souvent utilisé pour la domotique. Globalement, le protocole 6LoWPan
+                        fait une utilisation plus efficace du protocole IPv6. Il fonctionne à un débit plus faible et il consomme peu d'énergie.
                         Dans notre cas, c'est une solution adéquate.</p>
 
-                    <p>Nous avons utilisé Contiki, un système d'exploitation open source pour carte basse énergie tel que Zolertia. Il nous a permis de développer
-                    les programes nécessaire pour traiter les données du capteur de lumière puis les communiquer à l'autre carte et rendre
+                        <p>Nous avons utilisé Contiki, un système d'exploitation open source pour carte basse énergie tel que Zolertia. Il nous a permis de développer
+                        les programes nécessaire pour traiter les données du capteur de lumière puis les communiquer à l'autre carte et rendre
                         possible ce projet d'objet connecté.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="spacer"></div>
-            <div className="footer"></div>
+                <div className="spacer"></div>
+                <div className="footer"></div>
 
             </div >
         );

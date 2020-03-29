@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Main.css';
 import './App.css';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import profilpicture from './image/profil-picture.jpg';
 import iotschema from './image/IoT-schema.png';
@@ -18,7 +18,6 @@ class Main extends Component {
   render() {
     return (
       <div>
-
         <div className="profil-banner"></div>
         <div className="profil-zone">
           <div className="image-contour">
@@ -50,8 +49,8 @@ class Main extends Component {
                 <CardImgOverlay className="cardOverlay">
                   <CardTitle className="card-title">
                     <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
-                    
-                    </CardTitle>
+
+                  </CardTitle>
                 </CardImgOverlay>
               </Card>
             </div>
@@ -74,10 +73,10 @@ class Main extends Component {
               </Card>
             </div>
           </div>
-   
+
         </div>
 
-        
+
         <div className="spacer"></div>
         <div className="footer"></div>
 
