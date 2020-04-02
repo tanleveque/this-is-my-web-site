@@ -18,13 +18,13 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div className="profil-banner"></div>
+
         <div className="profil-zone">
-          <div className="image-contour">
+
             <div className="image-container">
               <img className="profil-picture" src={profilpicture} alt="me" />
             </div>
-          </div>
+
 
           <div>
             <h3 className="myName">Tanneguy Levêque</h3>
@@ -37,7 +37,7 @@ class Main extends Component {
 
         <div className="profil-content ">
           <Nav className="justify-content-center">
-
+            {/* <NavItem className="myNavItem font-weight-bold">Home</NavItem> */}
             <NavItem className="myNavItem font-weight-bold">Info</NavItem>
             <NavItem className="myNavItem font-weight-bold">Work</NavItem>
           </Nav>

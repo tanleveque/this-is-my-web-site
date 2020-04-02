@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Main from './Main';
-import IoT from './IoT';
+import IoT from './articles/IoT';
 
 export default class routes extends Component {
   render() {
