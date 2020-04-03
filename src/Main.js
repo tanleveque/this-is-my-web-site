@@ -9,7 +9,7 @@ import cultureeasy from './image/cultureEasy.png';
 import blockchainvsquantumcomputing from './image/bvsqc.jpg';
 import {
   Nav, NavItem,
-  Card, CardTitle, CardImg, CardImgOverlay
+  Card, CardTitle, CardImg, CardImgOverlay, Col, Row
 } from 'reactstrap';
 
 
@@ -20,10 +20,9 @@ class Main extends Component {
       <div>
 
         <div className="profil-zone">
-
-            <div className="image-container">
-              <img className="profil-picture" src={profilpicture} alt="me" />
-            </div>
+          <div className="image-container">
+            <img className="profil-picture" src={profilpicture} alt="me" />
+          </div>
 
 
           <div>
@@ -42,37 +41,45 @@ class Main extends Component {
             <NavItem className="myNavItem font-weight-bold">Work</NavItem>
           </Nav>
 
-          <div className="myProject">
-            <div className="coverCard">
-              <Card inverse>
-                <CardImg src={iotschema} alt="Iot schema" />
-                <CardImgOverlay className="cardOverlay">
-                  <CardTitle className="card-title">
-                    <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
 
-                  </CardTitle>
-                </CardImgOverlay>
-              </Card>
+          <Row className="myProject d-flex flex-column flex-md-row justify-content-center ">
+
+            <div className="cover-card-wrapper"> 
+              <div className="cover-card ">
+                <Card inverse>
+                  <CardImg src={iotschema} alt="Iot schema" />
+                  <CardImgOverlay className="cardOverlay">
+                    <CardTitle className="card-title">
+                      <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
+
+                    </CardTitle>
+                  </CardImgOverlay>
+                </Card>
+              </div>
             </div>
 
-            <div className="coverCard">
-              <Card inverse>
-                <CardImg src={cultureeasy} alt="culture easy" />
-                <CardImgOverlay className="cardOverlay">
-                  <CardTitle className="card-title">Projet étudiant : Culture Easy</CardTitle>
-                </CardImgOverlay>
-              </Card>
+            <div className="cover-card-wrapper">
+              <div className="cover-card">
+                <Card inverse>
+                  <CardImg src={cultureeasy} alt="culture easy" />
+                  <CardImgOverlay className="cardOverlay">
+                    <CardTitle className="card-title">Projet étudiant : Culture Easy</CardTitle>
+                  </CardImgOverlay>
+                </Card>
+              </div>
             </div>
 
-            <div className="coverCard">
-              <Card inverse>
-                <CardImg src={blockchainvsquantumcomputing} alt="Blockchain vs Quantum Computing" />
-                <CardImgOverlay className="cardOverlay">
-                  <CardTitle className="card-title">Blockchain vs Quantum Computing</CardTitle>
-                </CardImgOverlay>
-              </Card>
+            <div className="cover-card-wrapper">
+              <div className="cover-card ">
+                <Card inverse>
+                  <CardImg src={blockchainvsquantumcomputing} alt="Blockchain vs Quantum Computing" />
+                  <CardImgOverlay className="cardOverlay">
+                    <CardTitle className="card-title">Blockchain vs Quantum Computing</CardTitle>
+                  </CardImgOverlay>
+                </Card>
+              </div>
             </div>
-          </div>
+          </Row>
 
         </div>
 

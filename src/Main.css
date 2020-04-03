@@ -5,16 +5,9 @@
     margin-top: 30px;
 }
 
-/* .image-contour{   
-    margin-top: -45px;
-    background-color: #fff;
-    width: 136px;
-    height: 136px;
-    border-radius: 50%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-} */
+@media (min-width: 768px){
+
+}
 
 .image-container{
     position: relative;
@@ -27,7 +20,6 @@
     border-radius: 50%;
     overflow: hidden;
 }
-
 
 .profil-picture{
     width: inherit;
@@ -83,12 +75,18 @@
 
 .myProject{
     margin-top: 34px;
+
 }
 
-.coverCard{
+.cover-card-wrapper{
     margin-left: auto;
     margin-right: auto;
+}
+
+.cover-card{
     margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 262px;
     width: 335px;
 
