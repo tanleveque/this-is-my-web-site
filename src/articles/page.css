@@ -14,7 +14,7 @@
     padding: 20px;
     padding: 20px;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .image-container-page{

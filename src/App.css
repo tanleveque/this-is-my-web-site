@@ -12,10 +12,13 @@ body{
   width: 100%;
   height: 60px;
   background-color: black;
+
 }
 
 .spacer{
   margin-top: 60px;
+  position: relative;
+  display: flex;
 }
 
 

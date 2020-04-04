@@ -1,12 +1,20 @@
+header{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: futura;
+    position: relative;
+    font-size: 34px;
+}
 
 .profil-zone{
     padding-left:20px ;
     padding-right: 20px; 
     margin-top: 30px;
-}
-
-@media (min-width: 768px){
-
 }
 
 .image-container{
@@ -18,7 +26,7 @@
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    overflow: hidden;
+
 }
 
 .profil-picture{
@@ -32,14 +40,15 @@
 }
 
 .myName{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura;
     font-weight: bold;
     text-align: center;
     color: #191919;
-    font-size: 24px;
     margin-top: 17px;
     margin-bottom: 10px;
 }
+
+
 
 .details{
     font-family: Arial, Helvetica, sans-serif;
@@ -48,13 +57,34 @@
     font-size: 15px;
 }
 
-.decription{
-    margin: 0;
+.description-court{
+    margin-bottom: 10px;
+}
+
+.description-mid{
+    font-family: futura;
+    font-size: 45px;
+    text-align: center;
+    color: #191919;
 }
 
 .localisation{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #696969;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-calltoaction{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .profil-content{
@@ -127,4 +157,56 @@
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@media (min-width: 768px){
+    .profil-zone{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 150px;
+    }
+    .image-container{
+        height: 196px;
+        width:196px;
+    }
+
+    .profil-picture{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .details-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+    .localisation{
+        margin-left: 0px;
+    }
+
+    .profil-content{
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 767px){
+    .myName{
+        font-size: 24px;
+    }
+}
+
+
+@font-face{
+    font-family: "futura";
+    src: url('/font/Futura Condensed.ttf') format('ttf') ;
 }
