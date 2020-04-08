@@ -3,6 +3,7 @@ header{
     margin-top: 30px;
     display: flex;
     align-items: center;
+    margin-right: 50px;
 }
 
 .title{
@@ -26,6 +27,7 @@ header{
     width: 110px;
     height: 110px;
     border-radius: 50%;
+    padding: unset;
 
 }
 
@@ -81,19 +83,62 @@ header{
     padding-right: 20px;
 }
 
-.btn-calltoaction{
-    margin-left: auto;
+.btnCallToAction {
+    width: 230px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #e2e2e2, 0px 10px 20px #e2e2e2;
     margin-right: auto;
-    display: block;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-.profil-content{
-    padding-left: 20px;
-    padding-right: 20px ;
+.btnCallToAction a{
+    color: #191919;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profil-content {
     background-color: #f9f9f9;
     padding-top: 30px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}   
+
+.profil-content .card {
+    height: 262px;
+    max-width: 336px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px!important;
+    border: none;
+    box-shadow: 5px 5px 10px #efefef, -5px 5px 10px #efefef;
+    overflow: hidden;
+}
+
+.profil-content .titleBoxShadow {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    text-align: left;
+    padding: 30px 50px 18px 15px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 81%);
+}
+
+.profil-content .card img{
+    align-self: center;
+    width: initial;
+    height: 100%;
 }
 
 .myNavItem{
@@ -108,66 +153,7 @@ header{
 
 }
 
-.cover-card-wrapper{
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.cover-card{
-    margin-top:20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 262px;
-    width: 335px;
-
-}
-
-.card{
-    border:none;
-    height: inherit;
-    flex-direction:initial;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 5px 5px 10px #efefef, -5px 5px 10px #efefef;
-}
-
-.card-img{
-    align-self:center ;
-    width: initial;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.cardOverlay{
-    margin-top: 150px;
-    padding-bottom: 18px;
-    padding-top: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 81%);
-    border-radius: 0 0 20px 20px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.card-title{
-    align-items: baseline;
-    padding-right: 70px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 0px;
-}
-
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.row{
-    margin-left: 0px;
-    margin-right: 0px;
-}
 @media (min-width: 768px){
     .profil-zone{
         padding-left: 20px;
@@ -188,6 +174,7 @@ header{
     .details-wrapper{
         display: flex;
         align-items: center;
+        padding-right: 80px;
     }
 
     .localisation{
@@ -196,6 +183,13 @@ header{
 
     .profil-content{
         background-color: transparent;
+    }
+
+    .myNavItem{
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: #191919;
     }
 }
 

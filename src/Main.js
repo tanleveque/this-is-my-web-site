@@ -9,9 +9,8 @@ import cultureeasy from './image/cultureEasy.png';
 import blockchainvsquantumcomputing from './image/bvsqc.jpg';
 import {
   Nav, NavItem,
-  Card, CardTitle, CardImg, CardImgOverlay, Button, Row
+  Card, CardImg, Row, Container
 } from 'reactstrap';
-
 
 
 class Main extends Component {
@@ -20,11 +19,11 @@ class Main extends Component {
       <div>
         <header className="d-none d-md-block d-md-flex flex-row">
           <h3 className="title col-md-4">Tanneguy Levêque</h3>
-          <Nav className="justify-content-center col-md-8">
+          <div className="justify-content-end col-md-8 MyNavBar d-flex flex-row">
             {/* <NavItem className="myNavItem font-weight-bold">Home</NavItem> */}
-            <NavItem className="myNavItem font-weight-bold">Info</NavItem>
-            <NavItem className="myNavItem font-weight-bold">Work</NavItem>
-          </Nav>
+            <div className="myNavItem font-weight-bold">Info</div>
+            <div className="myNavItem font-weight-bold">Work</div>
+          </div>
 
         </header>
 
@@ -42,62 +41,54 @@ class Main extends Component {
               </div>
             </div>
           </Row>
-
           <Row>
             <p className="localisation col-12 col-md-4">Paris, France</p>
           </Row>
         </div>
 
-        <div className="d-none d-md-block">
-          <Button type="button" class="btn" className="btn-calltoaction">C'est parti !</Button>
-        </div>
+        <Container className="d-none d-md-block">
+          <div className="btnCallToAction" >
+            <Link to={''}> C'est parti !</Link>
+          </div>
+        </Container>
 
-        <div className="profil-content ">
+        <div className="profil-content">
           <Nav className="justify-content-center d-md-none">
             {/* <NavItem className="myNavItem font-weight-bold">Home</NavItem> */}
             <NavItem className="myNavItem font-weight-bold">Info</NavItem>
             <NavItem className="myNavItem font-weight-bold">Work</NavItem>
           </Nav>
 
-
-          <Row className="myProject d-flex flex-column flex-md-row justify-content-center ">
-
-            <div className="cover-card-wrapper">
-              <div className="cover-card ">
-                <Card inverse>
+          <Container>
+            <Row className="myProject flex-column flex-md-row">
+              <div className="col-md-4">
+                <Card >
                   <CardImg src={iotschema} alt="Iot schema" />
-                  <CardImgOverlay className="cardOverlay">
-                    <CardTitle className="card-title">
-                      <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
-
-                    </CardTitle>
-                  </CardImgOverlay>
+                  <div className="titleBoxShadow">
+                    <Link to={'/IoT'}>Internet of Things : la technologie Zolertia </Link>
+                  </div>
                 </Card>
               </div>
-            </div>
 
-            <div className="cover-card-wrapper">
-              <div className="cover-card">
-                <Card inverse>
-                  <CardImg src={cultureeasy} alt="culture easy" />
-                  <CardImgOverlay className="cardOverlay">
-                    <CardTitle className="card-title">Projet étudiant : Culture Easy</CardTitle>
-                  </CardImgOverlay>
+              <div className="col-md-4">
+                <Card >
+                  <CardImg src={cultureeasy} alt="image culture easy" />
+                  <div className="titleBoxShadow">
+                    <Link to={'/IoT'}>Projet étudiant : Culture Easy </Link>
+                  </div>
                 </Card>
               </div>
-            </div>
 
-            <div className="cover-card-wrapper">
-              <div className="cover-card ">
-                <Card inverse>
-                  <CardImg src={blockchainvsquantumcomputing} alt="Blockchain vs Quantum Computing" />
-                  <CardImgOverlay className="cardOverlay">
-                    <CardTitle className="card-title">Blockchain vs Quantum Computing</CardTitle>
-                  </CardImgOverlay>
+              <div className="col-md-4">
+                <Card >
+                  <CardImg src={blockchainvsquantumcomputing} alt="image blockchain et ordinateur quantique" />
+                  <div className="titleBoxShadow">
+                    <Link to={'/IoT'}>Blockchain vs Quantum Computing</Link>
+                  </div>
                 </Card>
               </div>
-            </div>
-          </Row>
+            </Row>
+          </Container>
           <div className="spacer"></div>
         </div>
 
