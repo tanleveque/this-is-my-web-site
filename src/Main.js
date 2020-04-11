@@ -13,6 +13,7 @@ import {
 } from 'reactstrap';
 
 
+
 class Main extends Component {
   render() {
     return (
@@ -24,10 +25,11 @@ class Main extends Component {
             <div className="myNavItem font-weight-bold">Info</div>
             <div className="myNavItem font-weight-bold">Work</div>
           </div>
-
         </header>
 
-        <div className="profil-zone ">
+        <div className="spacer"></div>
+
+        <Container>
           <Row className="d-flex flex-column flex-md-row justify-content-center">
             <div className="image-container col-md-4">
               <img className="profil-picture" src={profilpicture} alt="me" />
@@ -44,14 +46,14 @@ class Main extends Component {
           <Row>
             <p className="localisation col-12 col-md-4">Paris, France</p>
           </Row>
-        </div>
+        </Container>
 
-        <Container className="d-none d-md-block">
+{/*         <Container className="d-none d-md-block">
           <div className="btnCallToAction" >
             <Link to={''}> C'est parti !</Link>
           </div>
         </Container>
-
+ */}
         <div className="profil-content">
           <Nav className="justify-content-center d-md-none">
             {/* <NavItem className="myNavItem font-weight-bold">Home</NavItem> */}
@@ -91,6 +93,9 @@ class Main extends Component {
           </Container>
           <div className="spacer"></div>
         </div>
+
+
+
 
         <div className="footer"></div>
 
