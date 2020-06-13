@@ -17,7 +17,7 @@ class IoT extends Component {
     render() {
         return (
             <div >
-                <div className="banner-page-wrapper">
+                <div className="banner-page-wrapper ">
                     <div className="banner-page">
                         <img className="illustration" src={bannerPage} alt="Projet Zolertia Contiki" />
                     </div>
@@ -33,7 +33,7 @@ class IoT extends Component {
                     </div>
                     <div className="spacer"></div>
 
-                    <div className="page-content">
+                    <div className="page-content container">
 
                         <h3 className="titre-page-content">Internet of Things : la technologie Zolertia</h3>
                         <div className="spacer"></div>
@@ -57,7 +57,7 @@ class IoT extends Component {
                     </div>
                     <div className="spacer"></div>
 
-                    <div className="page-content">
+                    <div className="page-content container">
                         <div className="text-content">
                             <p> Nous avons choisi de connecter un potager afin de pouvoir aider un enfant à juger la nécessité d’allumer ou éteindre
                             la lumière sur les pousses. Le but, ici, est d'ajouter une fonction pédagogique au potager via un capteur de lumière
@@ -74,16 +74,16 @@ class IoT extends Component {
 
                     <div className="spacer"></div>
                     <div>
-                        <Container>
+                        <div>
                             <Row>
                                 <Col> <img className="illustration" src={screenshotIoT1} alt="screenshot iot 1"></img> </Col>
                                 <Col> <img className="illustration" src={screenshotIoT2} alt="screenshot iot 2"></img></Col>
                             </Row>
-                        </Container>
+                        </div>
                     </div>
                     <div className="spacer"></div>
 
-                    <div className="page-content">
+                    <div className="page-content container">
 
                         <div className="text-content">
                             <p>La technologie Zolertia est une solution hardware, ici sous forme d'une carte, fonctionnant avec le protocole 6LoWPan

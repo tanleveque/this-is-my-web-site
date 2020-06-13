@@ -18,6 +18,7 @@ header{
     margin-top: 30px;
 }
  */
+
 .image-container{
     position: relative;
     margin-left: auto;
@@ -65,9 +66,9 @@ header{
 
 .description-mid{
     font-family: futura;
-    font-size: 45px;
+    font-size: 3.1vw;
     text-align: center;
-    color: #191919;
+    color: var(--text-black-color);
 }
 
 .localisation{
@@ -179,11 +180,7 @@ header{
     .details-wrapper{
         display: flex;
         align-items: center;
-        padding-right: 80px;
-    }
 
-    .localisation{
-        margin-left: 0px;
     }
 
     .profil-content{

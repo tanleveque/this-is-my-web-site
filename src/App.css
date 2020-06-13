@@ -6,6 +6,8 @@
 body{
   background-color: #eeeeee;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  color: var(--text-black-color);
 }
 
 .footer{
@@ -27,6 +29,28 @@ a{
   color: #FFF;
 }
 
+/* HOVER */
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+
+/* COLOR */
+:root{
+  /* Color Theme Swatches in Hex */
+  --dark-blue : #061F40; 
+  --night-blue :#0A2C59; 
+  --gold-blue : #1C58A6; 
+  --day-light-blue : #6C9BD9; 
+  --light-blue :#E9ECF2;
+  --background-color: #f9f9f9;
+  --dark-background-color: #eee;
+  --text-black-color: #454545;
+}
+
+
+/* build in code */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

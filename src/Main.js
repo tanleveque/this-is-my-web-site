@@ -19,20 +19,21 @@ class Main extends Component {
     return (
       <div>
         <header className="d-none d-md-block d-md-flex flex-row">
-          <h3 className="title col-md-4">Tanneguy Levêque</h3>
-          <div className="justify-content-end col-md-8 MyNavBar d-flex flex-row">
+          <h3 className="title col-md-6">Tanneguy Levêque</h3>
+          <div className="justify-content-end col-md-6 MyNavBar d-flex flex-row">
             {/* <NavItem className="myNavItem font-weight-bold">Home</NavItem> */}
             <div className="myNavItem font-weight-bold">Info</div>
             <div className="myNavItem font-weight-bold">Work</div>
           </div>
         </header>
 
-        <div className="spacer"></div>
 
         <Container>
+          <div className="spacer"></div>
           <Row className="d-flex flex-column flex-md-row justify-content-center">
             <div className="image-container col-md-4">
               <img className="profil-picture" src={profilpicture} alt="me" />
+              <p className="localisation col-12 d-none d-md-block">Paris, France</p>
             </div>
             <div className="details-wrapper col-md-8">
               <h3 className="myName d-md-none">Tanneguy Levêque</h3>
@@ -44,11 +45,11 @@ class Main extends Component {
             </div>
           </Row>
           <Row>
-            <p className="localisation col-12 col-md-4">Paris, France</p>
+            <p className="localisation col-12 col-md-4 d-md-none">Paris, France</p>
           </Row>
         </Container>
 
-{/*         <Container className="d-none d-md-block">
+        {/*         <Container className="d-none d-md-block">
           <div className="btnCallToAction" >
             <Link to={''}> C'est parti !</Link>
           </div>
